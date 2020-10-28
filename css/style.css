@@ -378,7 +378,7 @@ body>div{width:90%;margin: 0 auto;position: relative;}
  #nav-part1>div>section:hover  .title1>span{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);color: rgb(10, 10, 10);}
 
  .v-icon{position: absolute;right:2rem;}
- #animation{top:-20rem;position: relative;}
+ #animation{top:-22.5rem;position: relative;}
  #points{opacity: 1;}
  #arrows>button:nth-child(1){width: 100%;height: 93.5%;top:0%;opacity: 0;}
 
