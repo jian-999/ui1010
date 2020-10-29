@@ -406,7 +406,7 @@ body>div{width:90%;margin: 0 auto;position: relative;}
 
 
 
-#flex3{width:100%;height:1200px;padding: 2rem;background-color: rosybrown;position: relative;top:2.5rem;left: -5%;}
+#flex3{width:97.5%;height:1200px;padding: 2rem;background-color: rosybrown;position: relative;top:2.5rem;left: -5%;}
 #flex3>h1{font-size: 3rem;font-weight: bolder;text-align: center;padding: 0.5rem;}
 #flex3>div{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;height: 1100px;}
 #flex3>h1+div>div{width:80%;background-color:rgb(240, 240, 240);height: 250px;padding:2rem;-webkit-transition: 0.5s;-o-transition: 0.5s;transition: 0.5s;position: relative;-webkit-box-shadow: 0 0 10px skyblue;box-shadow: 0 0 10px skyblue;margin: 0 auto;}
@@ -420,7 +420,7 @@ body>div{width:90%;margin: 0 auto;position: relative;}
 
 
 
-#footer{position: relative;top:12.5rem;width: 100%;left:-5%;background-color: rgb(220, 220, 220);z-index:10;}
+#footer{position: relative;top:12.5rem;width: 100%;left:0%;background-color: rgb(220, 220, 220);z-index:10;}
 #footer>div:nth-child(1)>h3+div+div{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;width:100%;position: relative;top:180px;text-align: center;margin: 0 auto;}
 #footer>div:nth-child(1)>div label{display: block;width: 80%;margin: 0 auto;}
 #footer>div:nth-child(1)>div input{display:block;width: 80%;margin: 0 auto;padding: 1rem 0;border: none;outline:none;background-color: unset;}
