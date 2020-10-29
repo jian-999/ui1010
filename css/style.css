@@ -310,7 +310,7 @@ body>div{width:90%;margin: 0 auto;position: relative;}
 #flex4>div:nth-child(2)>p{line-height:2rem;font-size: 1.5rem;margin-top:3.5rem 0;}
 
 
-#footer{position: relative;top:35rem;width: 100%;left:0%;background-color: rgb(220, 220, 220);z-index: -10;}
+#footer{position: relative;top:35rem;width: 100%;left:5%;background-color: rgb(220, 220, 220);z-index: -10;}
 #footer>div:nth-child(1){height: 450px;}
 #footer>div:nth-child(1)>h3{text-align: center;font-weight: bold;font-size: 2rem;position: relative;top:100px;}
 #footer>div:nth-child(1)>h3>span{font-size: 1rem;}
@@ -420,7 +420,7 @@ body>div{width:90%;margin: 0 auto;position: relative;}
 
 
 
-#footer{position: relative;top:12.5rem;width: 100%;left:0%;background-color: rgb(220, 220, 220);z-index:10;}
+#footer{position: relative;top:12.5rem;width: 100%;left:5%;background-color: rgb(220, 220, 220);z-index:10;}
 #footer>div:nth-child(1)>h3+div+div{display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;width:100%;position: relative;top:180px;text-align: center;margin: 0 auto;}
 #footer>div:nth-child(1)>div label{display: block;width: 80%;margin: 0 auto;}
 #footer>div:nth-child(1)>div input{display:block;width: 80%;margin: 0 auto;padding: 1rem 0;border: none;outline:none;background-color: unset;}
