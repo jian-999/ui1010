@@ -48,7 +48,7 @@
 
 
 
-#box4>div:nth-child(1){background-color: brown;text-align: center;position: relative;top:-40px;color: rgb(255, 255, 255);}
+#box4>div:nth-child(1){background-color: brown;text-align: center;position: relative;top:-45px;color: rgb(255, 255, 255);}
 #box4>div:nth-child(2)>section{display: -webkit-box;display: -ms-flexbox;display: flex;}
 #box4>div:nth-child(2)>section>div{width: 50%;text-align: center;}
 #box4>div:nth-child(2)>section>div img{width: 150px;height:150px;border-radius: 100%;}
