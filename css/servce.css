@@ -1,0 +1,68 @@
+@charset"UTF-8";
+#btn{opacity: 0;}
+#btn2{position: relative;left:80%;display:none;width: 35px;}
+#nav{display: flex;background-color: brown;}
+#nav>div:nth-child(1){width:25%;position: relative;top:20px;}
+#nav>div:nth-child(2){width:75%;display: flex;justify-content: space-around;}
+
+#box>h3+div{display: flex;flex-wrap: wrap;margin: 0 auto;}
+#box>h3+div>div{width: 50%;}
+#box>h3+div>div a{display: block;width:100%;text-align: center;}
+#box>h3+div>div a img{width: 150px;height: 150px;border-radius: 100%;}
+#box>h3+div>div a+h4{text-align: center;}
+
+
+
+
+footer{text-align: center;position: relative;top:0px;color: rgb(255, 255, 255);background-color: brown;}
+@media screen and (max-width:800px){
+ 
+    
+}
+
+@media screen and (max-width:600px){
+    #btn2{position: relative;left:90%;display: block;}
+    #nav{flex-direction: column;}
+    #nav>div:nth-child(1){margin:0 auto;}
+    #nav>div:nth-child(2){display: flex;flex-direction: column;width: 100%;}
+    input[id=btn]:checked+nav{animation:nav 0.3s forwards;}
+    #nav{position:absolute;left:-100%;background-color: brown;width: 100%;text-align: center;z-index: 2;}
+    @keyframes nav {0%{left:-100%;position: absolute;}
+                     100%{left:0%;position: absolute;}
+                                    }
+
+}
+
+@media screen and (min-width:601px)
+              and (max-width:800px){
+                #btn2{position: relative;left:90%;display: block;}
+                #nav{flex-direction: column;}
+                #nav>div:nth-child(1){margin:0 auto;}
+                #nav>div:nth-child(2){display: flex;flex-direction: column;width: 100%;}
+                input[id=btn]:checked+nav{animation:nav 0.3s forwards;}
+                #nav{position:absolute;left:-100%;background-color: brown;width: 100%;text-align: center;z-index: 2;}
+                @keyframes nav {0%{left:-100%;position: absolute;}
+                                 100%{left:0%;position: absolute;}
+                                                }
+                
+
+        #box>h3+div>div a img{width: 250px;height: 250px;border-radius: 100%;}                                 
+}
+
+@media screen and (min-width:801px){
+    
+    footer{text-align: center;position: relative;top:0px;}
+
+    #box>h3+div>div a img{width: 250px;height: 250px;border-radius: 100%;}
+
+}
+
+
+@media screen and (min-width:801px)
+              and (max-width:1280px){
+
+}
+
+@media screen and (min-width:1281px){
+
+}
