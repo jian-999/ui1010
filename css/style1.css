@@ -11,7 +11,7 @@
 #nav{display: -webkit-box;display: -ms-flexbox;display: flex;background-color: brown;}
 #nav>div:nth-child(1){width:25%;position: relative;top:20px;}
 #nav>div:nth-child(2){width:75%;display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-pack: distribute;justify-content: space-around;}
-
+#nav>div:nth-child(2) section:hover>h2{background-color: rgb(255, 255, 255);color: brown;}
 
 
 
@@ -19,6 +19,10 @@
 
 #main>div:nth-child(1){background-image:url(../images/咖啡豆\(640-427\).jpg);height:427px;}
 #box1>div:nth-child(1){position:absolute;text-align: center;width: 97%;top:250px;}
+
+
+
+
 #box1>div:nth-child(2){width: 25px;height: 25px;text-align: center;margin: 0 auto;position: relative;top:325px;}
 #box1>div:nth-child(3){width: 25px;height: 25px;text-align: center;margin: 0 auto;position: relative;top:350px;}
 
@@ -75,7 +79,8 @@
 
 footer{text-align: center;}
 @media screen and (max-width:800px){
- 
+  #nav>div:nth-child(1){width:100%;position: relative;top:20px;}
+  #nav>div:nth-child(2) section:hover>h2{background-color: brown;color: rgb(0, 0, 0);}
 }
 
 @media screen and (max-width:600px){

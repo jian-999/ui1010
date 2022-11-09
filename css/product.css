@@ -11,6 +11,9 @@
 #nav{display: -webkit-box;display: -ms-flexbox;display: flex;background-color: brown;}
 #nav>div:nth-child(1){width:25%;position: relative;top:20px;}
 #nav>div:nth-child(2){width:75%;display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-pack: distribute;justify-content: space-around;}
+#nav>div:nth-child(2) section:hover>h2{background-color: rgb(255, 255, 255);color: brown;}
+
+
 
 #pic>div:nth-child(2){display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;width: 100%;}
 #pic>div:nth-child(1){width: 100%;height:427px;}
@@ -18,6 +21,8 @@
 #pic>div:nth-child(2){display:-webkit-box;display:-ms-flexbox;display:flex;position: relative;left:0%;top:25px;}
 #pic>div:nth-child(2)>a{display: block;width: 15vw;height: 15vw;}
 #pic>div:nth-child(2)>a img{width: 100%;height: 100%;}
+
+
 
 #coffee{position: relative;top:0px;}
 #coffee a{display: block;width: 100%;text-decoration: none;color: black;text-align: center;background-color: brown;padding: 5px;}
@@ -29,8 +34,8 @@
 
 footer{text-align: center;position: relative;top:0px;}
 @media screen and (max-width:800px){
- 
-    
+    #nav>div:nth-child(1){width:100%;position: relative;top:20px;}
+    #nav>div:nth-child(2) section:hover>h2{background-color: brown;color: rgb(0, 0, 0);}
 }
 
 @media screen and (max-width:600px){

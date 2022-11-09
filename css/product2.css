@@ -15,18 +15,23 @@
 
 
 
-#box>h3+div{display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin: 0 auto;}
-#box>h3+div>div{width: 50%;}
-#box>h3+div>div a{display: block;width:100%;text-align: center;}
-#box>h3+div>div a img{width: 150px;height: 150px;border-radius: 100%;}
-#box>h3+div>div a+h4{text-align: center;}
+#pic>div:nth-child(2){display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;width: 100%;}
+#pic>div:nth-child(1){width: 100%;height:427px;}
+#pic>div:nth-child(1) img{width: 100%;height: 100%;}
+#pic>div:nth-child(2){display:-webkit-box;display:-ms-flexbox;display:flex;position: relative;left:0%;top:25px;}
+#pic>div:nth-child(2)>a{display: block;width: 15vw;height: 15vw;}
+#pic>div:nth-child(2)>a img{width: 100%;height: 100%;}
 
+#coffee{position: relative;top:0px;}
+#coffee a{display: block;width: 100%;text-decoration: none;color: black;text-align: center;background-color: brown;padding: 5px;}
 
-
+#other>h3{position: relative;top:50px;}
+#other>h3+div{display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-pack: distribute;justify-content: space-around;margin-top: 50px;}
+#other>h3+div a{display: block;width: 20%;height: auto;}
+#other>h3+div a img{width: 100%;height: 100%;}
 
 footer{text-align: center;position: relative;top:0px;}
 @media screen and (max-width:800px){
-    #nav>div:nth-child(1){width:100%;position: relative;top:20px;}
     #nav>div:nth-child(2) section:hover>h2{background-color: brown;color: rgb(0, 0, 0);}
     
 }
@@ -45,6 +50,10 @@ footer{text-align: center;position: relative;top:0px;}
                      100%{left:0%;position: absolute;}
                                     }
 
+ #pic>div:nth-child(1){width: 100%;height:427px;margin: 0 auto;}                           
+ #coffee{position: relative;top:32px;}
+
+ #other{opacity: 0;}
 }
 
 @media screen and (min-width:601px)
@@ -61,17 +70,30 @@ footer{text-align: center;position: relative;top:0px;}
                 @keyframes nav {0%{left:-100%;position: absolute;}
                                  100%{left:0%;position: absolute;}
                                                 }
-                
-
-        #box>h3+div>div a img{width: 250px;height: 250px;border-radius: 100%;}                                 
+                #coffee{position: relative;top:50px;width: 100%;}
+                #pic>div:nth-child(1){width: 100%;height:427px;}
+                #pic>div:nth-child(2){display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;width: 100%;}
+                #pic>div:nth-child(2){display:-webkit-box;display:-ms-flexbox;display:flex;position: relative;left:0%;top:25px;}
+                main{display:-webkit-box;display:-ms-flexbox;display:flex ;-ms-flex-pack: distribute;justify-content: space-around;}
+                main>div{width: 49%;}
+                #pic>div:nth-child(2)>a{display: block;width: 7.5vw;height: 7.5vw;}
+                #coffee{position: relative;top:50px;width: 50%;}
 }
 
 @media screen and (min-width:801px){
-    
+    #coffee{position: relative;top:50px;width: 50%;}
     footer{text-align: center;position: relative;top:0px;}
 
-    #box>h3+div>div a img{width: 250px;height: 250px;border-radius: 100%;}
+   
 
+    #pic>div:nth-child(2){display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;width: 100%;}
+    #pic>div:nth-child(1){width: 100%;height:427px;position: relative;left:0%;}
+    #pic>div:nth-child(1) img{width: 100%;height: 100%;}
+    #pic>div:nth-child(2){display:-webkit-box;display:-ms-flexbox;display:flex;position: relative;left:0%;top:25px;}
+    #pic>div:nth-child(2)>a{display: block;width: 7.5vw;height: 7.5vw;}
+    #pic>div:nth-child(2)>a img{width: 100%;height: 100%;}
+    main{display:-webkit-box;display:-ms-flexbox;display:flex ;-ms-flex-pack: distribute;justify-content: space-around;}
+    main>div{width: 49%;}
 }
 
 
