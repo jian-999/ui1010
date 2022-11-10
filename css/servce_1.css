@@ -26,6 +26,11 @@
 
 
 
+#other>h3{position: relative;top:50px;}
+#other>h3+div{display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-pack: distribute;justify-content: space-around;margin-top: 50px;}
+#other>h3+div a{display: block;width: 20%;height: auto;}
+#other>h3+div a img{width: 100%;height: 100%;}
+
 
 
 footer{text-align: center;position: relative;top:0px;}
@@ -48,7 +53,7 @@ footer{text-align: center;position: relative;top:0px;}
     @keyframes nav {0%{left:-100%;position: absolute;}
                      100%{left:0%;position: absolute;}
                                     }
-
+  #other{opacity: 0;}
 }
 
 @media screen and (min-width:601px)
@@ -71,7 +76,12 @@ footer{text-align: center;position: relative;top:0px;}
 }
 
 @media screen and (min-width:801px){
-    
+    #box23{display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-pack: distribute;justify-content: space-around;}
+    #box23>div{width: 49%;}
+
+
+   
+
     footer{text-align: center;position: relative;top:0px;}
 
     

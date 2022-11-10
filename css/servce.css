@@ -69,14 +69,17 @@ footer{text-align: center;position: relative;top:0px;}
 @media screen and (min-width:801px){
     
     footer{text-align: center;position: relative;top:0px;}
-
-    #box>h3+div>div a img{width: 250px;height: 250px;border-radius: 100%;}
+    #box>h3+div{display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: nowrap;flex-wrap: nowrap;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;}
+    #box>h3+div>div{width: 20%;}
+    #box>h3+div>div a{display: block;width:100%;text-align: center;}
+    #box>h3+div>div a img{width: 200px;height: 200px;border-radius: 100%;}
 
 }
 
 
 @media screen and (min-width:801px)
               and (max-width:1280px){
+
 
 }
 
