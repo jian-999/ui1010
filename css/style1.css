@@ -18,7 +18,7 @@
 
 
 #main>div:nth-child(1){background-image:url(../images/咖啡豆\(640-427\).jpg);height:427px;}
-#box1>div:nth-child(1){position:absolute;text-align: center;width: 97%;top:250px;}
+#box1>div:nth-child(1){position:absolute;text-align: center;width:80%;top:250px;left: 10%;color: rgb(0, 0, 0);text-shadow: 0 0 60px rgb(255, 255, 255);}
 
 
 
